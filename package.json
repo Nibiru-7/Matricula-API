@@ -1,9 +1,11 @@
 {
   "name": "matricula-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dits/server.js",
   "scripts": {
+    "start": "node dits/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
   },
   "keywords": [],
