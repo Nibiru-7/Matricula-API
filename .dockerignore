@@ -5,5 +5,5 @@ dist
 Dockerfile
 docker-compose.yml
 *.md
-npm-debug-log
+npm-debug.log
 .env
