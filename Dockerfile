@@ -42,4 +42,4 @@ ENV PORT=8080
 EXPOSE 8080
 
 # Comando por defecto
-CMD ["node", "dist/server.ts"]
+CMD ["node", "dist/server.js"]
