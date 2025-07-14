@@ -28,7 +28,7 @@ router.get('/area', verifyToken, getDataArea);
 router.get('/ciclo', verifyToken, getDataCliclo);
 router.get('/curso', verifyToken, getDataCurso);
 router.get('/descuento', verifyToken, getDataDescuento);
-router.get('/matricula', verifyToken, getDataEstadoMatricula);
+router.get('/estadomatricula', verifyToken, getDataEstadoMatricula);
 router.get('/fecha', verifyToken, getDataFecha);
 router.get('/matricula', verifyToken, getDataMatricula);
 router.get('/mediospago', verifyToken, getDataMediosPago);

@@ -6,15 +6,19 @@
     "start": "node dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "clean": "rmdir /s /q dist"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nibiru-7",
   "license": "ISC",
-  "description": "",
+  "description": "API para gestión de matrículas universitarias.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nibiru-7/Matricula-API.git"
+  },
   "dependencies": {
     "bcrypt": "^6.0.0",
-    "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
     "dotenv": "^16.6.1",
     "express": "^5.1.0",
